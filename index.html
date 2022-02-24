@@ -13,5 +13,21 @@
         THE D.O.M.
       </h1>
       <div id="container"></div>
+      <div id="events-section">
+          <div class="first-method">
+            <h3>Methods of adding events to HTML</h3>
+            <p>Method 1: Set attribute directly on the HTML element (not preferred)</p>
+             <button id="neglected-btn" onclick="alert('This allows only 1 onclick event per element. Quite inneficient.')">Click me!</button>
+          </div>
+          <div class="second-method">
+              <p>Method 2: Set the js on a different file (or at least separately)</p>
+              <button id="btn">Click me!</button>
+
+          </div>
+          <div class="third-method">
+            <p>Method 3: Add/create an event listener on the js file (preferred method)</p>
+            <button id="other-btn">Click me!</button>
+          </div>
+    </div>
 </body>
 </html>
